@@ -11,8 +11,11 @@ __pycache__/
 # Files created by exercises
 greeting.txt
 my_list.txt
+not_closed.txt
 numbers.txt
+statistics.txt
 log.txt
+counts.txt
 test.txt
 does_not_exist.txt
 
