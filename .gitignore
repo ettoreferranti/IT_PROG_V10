@@ -9,7 +9,6 @@ __pycache__/
 .ipynb_checkpoints
 
 # Files created by exercises
-restaurants.txt
 greeting.txt
 my_list.txt
 numbers.txt
