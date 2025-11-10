@@ -15,8 +15,8 @@ You have three options to run this notebook:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/ettoreferranti/lecture.git
-   cd lecture
+   git clone https://github.com/ettoreferranti/IT_PROG_V10.git
+   cd IT_PROG_V10
    ```
 
 2. Run with Docker Compose:
@@ -40,14 +40,14 @@ docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter-fileio
 ### Option 2: Google Colab (No Installation Required!)
 
 Click this link to open the notebook in Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ettoreferranti/lecture/blob/main/notebook.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ettoreferranti/IT_PROG_V10/blob/main/notebook.ipynb)
 
 You'll need a Google account, and you can save your own copy to work on.
 
 ### Option 3: Binder (No Installation Required!)
 
 Click this badge to launch the notebook in Binder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ettoreferranti/lecture/main?filepath=notebook.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ettoreferranti/IT_PROG_V10/main?filepath=notebook.ipynb)
 
 Note: Binder sessions are temporary and won't save your work.
 
@@ -56,8 +56,8 @@ Note: Binder sessions are temporary and won't save your work.
 If you have Python and Jupyter installed locally:
 
 ```bash
-git clone https://github.com/ettoreferranti/lecture.git
-cd lecture
+git clone https://github.com/ettoreferranti/IT_PROG_V10.git
+cd IT_PROG_V10
 jupyter notebook notebook.ipynb
 ```
 
