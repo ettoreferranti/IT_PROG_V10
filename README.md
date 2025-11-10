@@ -103,6 +103,7 @@ The notebook contains **9 exercises** (6 core + 3 bonus):
 
 ### Provided Files
 - `notebook.ipynb` - Main exercise notebook with instructions and solutions
+- `notebook_master.ipynb` - **Read-only golden copy** for reference (see below)
 - `restaurants.txt` - Sample data for Exercise 5 & 6
 - `test/example.txt` - Sample file for Exercise 4
 - `repo_qr_code.png` - QR code for easy repository access
@@ -117,6 +118,47 @@ Students will create these files as they work through the exercises:
 - `log.txt` (Bonus Exercise 7)
 - `counts.txt` (Bonus Exercise 8)
 - `numbers.txt` & `statistics.txt` (Bonus Exercise 9)
+
+## For Instructors: Golden Copy Protection
+
+To prevent accidental modifications during lectures, this repository includes:
+
+### 1. Read-Only Master Copy
+- **File:** `notebook_master.ipynb`
+- **Permissions:** Read-only (444) - cannot be edited without explicitly changing permissions
+- **Usage:** Keep this open during lectures as a reference while editing `notebook.ipynb`
+
+### 2. Git Tag: `v1.0-golden`
+This version is tagged in git, allowing you to restore the original at any time.
+
+**To restore the working notebook from the golden copy:**
+
+```bash
+# Option 1: Copy from the master file
+cp notebook_master.ipynb notebook.ipynb
+
+# Option 2: Restore from git tag
+git show v1.0-golden:notebook.ipynb > notebook.ipynb
+
+# Option 3: Reset to tagged version (resets entire repository)
+git checkout v1.0-golden
+```
+
+**To view the golden tag details:**
+```bash
+git show v1.0-golden
+```
+
+**To make changes to the master copy (if needed):**
+```bash
+# Remove read-only protection
+chmod 644 notebook_master.ipynb
+
+# Make your changes...
+
+# Restore read-only protection
+chmod 444 notebook_master.ipynb
+```
 
 ## Support
 
