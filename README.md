@@ -20,7 +20,7 @@ Click this link to open the notebook in Google Colab:
 
 You'll need a Google account, and you can save your own copy to work on.
 
-### Option 3: Docker (No Installation Required!)
+### Option 3: Docker
 
 **Prerequisites:**
 - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
