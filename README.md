@@ -6,7 +6,21 @@ This repository contains exercises for the lecture "IT_PROG V10: File I/O" from 
 
 You have multiple options to run this notebook:
 
-### Option 1: Docker (Recommended - No Installation Required!)
+### Option 1: Binder (Recommended - No Installation Required!)
+
+Click this badge to launch the notebook in Binder:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ettoreferranti/IT_PROG_V10/main?filepath=notebook.ipynb)
+
+Note: Binder sessions are temporary and won't save your work.
+
+### Option 2: Google Colab (No Installation Required!)
+
+Click this link to open the notebook in Google Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ettoreferranti/IT_PROG_V10/blob/main/notebook.ipynb)
+
+You'll need a Google account, and you can save your own copy to work on.
+
+### Option 3: Docker (No Installation Required!)
 
 **Prerequisites:**
 - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
@@ -36,20 +50,6 @@ You have multiple options to run this notebook:
 docker build -t jupyter-fileio .
 docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter-fileio
 ```
-
-### Option 2: Google Colab (No Installation Required!)
-
-Click this link to open the notebook in Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ettoreferranti/IT_PROG_V10/blob/main/notebook.ipynb)
-
-You'll need a Google account, and you can save your own copy to work on.
-
-### Option 3: Binder (No Installation Required!)
-
-Click this badge to launch the notebook in Binder:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ettoreferranti/IT_PROG_V10/main?filepath=notebook.ipynb)
-
-Note: Binder sessions are temporary and won't save your work.
 
 ### Option 4: Local Installation
 
